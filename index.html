@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --fg: #000000;
+        --muted: #666666;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.08em;
+      }
+
+      .container {
+        text-align: center;
+        border: 2px solid var(--fg);
+        padding: 3rem 4rem;
+        background: #fff;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 6vw, 5rem);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      p {
+        margin-top: 1rem;
+        font-size: clamp(0.8rem, 2vw, 1.2rem);
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Coming Soon</h1>
+    </div>
+  </body>
+</html>
